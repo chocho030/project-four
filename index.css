@@ -1,0 +1,28 @@
+.navigation {
+  display: flex;
+}
+
+.hero {
+  display: flex;
+}
+
+.icon-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+.content {
+}
+.content-description {
+  font-size: 0.7rem;
+}
+
+.contact-content {
+  display: flex;
+}
+.contact-icon {
+  width: 2rem;
+  height: 2rem;
+}
+.contact-button {
+  display: flex;
+}
