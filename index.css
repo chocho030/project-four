@@ -1,5 +1,22 @@
-.navigation {
+.nav {
   display: flex;
+}
+
+.logo {
+  width: 3rem;
+  height: 3rem;
+}
+
+.nav-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin: auto; */
+  width: 100vw;
+  margin-right: 3rem;
+}
+.nav-center-content {
+  padding: 1rem;
 }
 
 .hero {
