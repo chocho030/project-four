@@ -1,12 +1,11 @@
+/* 네비게이션 */
 .nav {
   display: flex;
 }
-
 .logo {
   width: 3rem;
   height: 3rem;
 }
-
 .nav-center {
   display: flex;
   justify-content: center;
@@ -19,20 +18,46 @@
   padding: 1rem;
 }
 
+/* 히어로 섹션 */
 .hero {
   display: flex;
+  position: relative;
+}
+.hero-back {
+  width: 100%;
+  height: 100%;
+}
+.hero-main {
+  position: absolute;
+  top: 10rem;
+  left: 10rem;
+}
+.hero-img {
+  position: absolute;
+  top: 10rem;
+  right: 5rem;
 }
 
-.icon-content {
-  display: flex;
-  flex-wrap: wrap;
-}
-.content {
-}
-.content-description {
-  font-size: 0.7rem;
+@media (400px <= width <= 1000px) {
+  .hero-main {
+    left: 5rem;
+  }
+  .hero-img {
+    right: 2rem;
+  }
 }
 
+.hero-main-title {
+  font-size: x-large;
+  font-weight: bold;
+}
+.hero-main-content {
+  padding-bottom: 1rem;
+}
+.hero-main-button {
+}
+
+/* contact */
 .contact-content {
   display: flex;
 }
