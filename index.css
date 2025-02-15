@@ -68,3 +68,61 @@
 .contact-button {
   display: flex;
 }
+
+/* 어바웃 */
+
+#about {
+  margin-top: 2rem;
+  margin-bottom: 8rem;
+}
+.about-title {
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-large;
+}
+.about-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: grey;
+}
+
+.icon-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.icon-description {
+  flex: 1;
+  padding: 0.5rem;
+}
+.about-icon {
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content-description {
+  text-align: center;
+  font-size: 0.7rem;
+}
+.icon-description-title {
+  text-align: center;
+}
+
+/* contact */
+
+#contact {
+  position: relative;
+}
+.contact-back {
+  width: 100%;
+  height: 100%;
+}
+.contact-main {
+  position: absolute;
+  bottom: 2rem;
+  top: 2rem;
+}
