@@ -25,7 +25,6 @@
 }
 .hero-back {
   width: 100%;
-  height: 100%;
 }
 .hero-main {
   position: absolute;
@@ -52,9 +51,21 @@
   font-weight: bold;
 }
 .hero-main-content {
-  padding-bottom: 1rem;
+  padding-bottom: 2rem;
 }
 .hero-main-button {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border: none;
+  background-color: #000624;
+  color: #fefcff;
+  border-radius: 0.5rem;
+  font-size: large;
+}
+.hero-main-button:hover {
+  background-color: rgb(5, 23, 112);
 }
 
 /* contact */
@@ -123,6 +134,32 @@
 }
 .contact-main {
   position: absolute;
-  bottom: 2rem;
-  top: 2rem;
+  top: 10rem;
+  left: 40rem;
+}
+.contact-main-title {
+  margin-bottom: 1rem;
+  font-size: xx-large;
+}
+.contact-main-content {
+  margin-bottom: 2rem;
+}
+
+.contact-button {
+  margin-top: 2rem;
+  gap: 1rem;
+}
+.contact-button-1 {
+  border: none;
+  background-color: #000624;
+  color: #fefcff;
+  font-size: large;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 0.5rem;
+}
+.contact-button-1:hover {
+  background-color: rgb(5, 23, 112);
 }
